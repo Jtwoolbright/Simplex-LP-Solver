@@ -1,1 +1,1 @@
-# Simplex-Linear-Program-Solver
+# Simplex Linear Program Solver
