@@ -9,7 +9,7 @@ As more and more constraints and variables are introduced, Linear Programs can g
 
 ## Description
 
-The Simplex Linear Program Solver uses the original Simplex Algorithm, and it requires the Linear Program to be in standard form prior to user input (See above image). The b<sub>m is referred to as the right hand side constraints when prompting for user input, and it cannot include numbers that are <= 0. The c<sub>n is referred to as the the constants of the equation to maximize, and they also cannot be <= 0. The a<sub>mn is referred to as the constraint variable constants, and the user must type in constants for all variables, including those with zero constants, in the constraints.
+The Simplex Linear Program Solver uses the original Simplex Algorithm, and it requires the Linear Program to be in standard form prior to user input (See above image). The b<sub>m</sub> is referred to as the right hand side constraints when prompting for user input, and it cannot include numbers that are <= 0. The c<sub>n</sub> is referred to as the the constants of the equation to maximize, and they also cannot be <= 0. The a<sub>mn</sub> is referred to as the constraint variable constants, and the user must type in constants for all variables, including those with zero constants, in the constraints.
   
 ## Requirements
 
