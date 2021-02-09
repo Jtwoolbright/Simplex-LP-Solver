@@ -9,7 +9,7 @@ As more and more constraints and variables are introduced, Linear Programs can g
 
 ![StandardForm](https://user-images.githubusercontent.com/48270610/107437223-810a7a00-6ae3-11eb-916d-d866eddcf121.PNG)
 
-The Simplex Linear Program Solver uses the original Simplex Algorithm, and it requires the Linear Program to be in standard form prior to user input (See above image). The b<sub>m</sub> is referred to as the right hand side constraints when prompting for user input, and it cannot include numbers that are <= 0. The c<sub>n</sub> is referred to as the the constants of the equation to maximize, and they also cannot be <= 0. The a<sub>mn</sub> is referred to as the constraint variable constants, and the user must type in constants for all variables, including those with zero constants, in the constraints.
+The Simplex Linear Program Solver uses the original Simplex Algorithm, and it requires the Linear Program to be in standard form prior to user input (See above image). The q<sub>n</sub> is referred to as the right hand side constraints when prompting for user input, and it cannot include numbers that are <= 0. The p<sub>k</sub> is referred to as the the constants of the equation to maximize, and they also cannot be <= 0. The a<sub>nk</sub> is referred to as the constraint variable constants, and the user must type in constants for all variables, including those with zero constants, in the constraints.
   
 ## Requirements
 
@@ -23,7 +23,7 @@ To run from command line, you must have a Java kit installed and your system's e
 
 The above output is the result from a standard LP,
 
-Maximize Z = 3x<sub>1</sub> + 5x<sub>2</sub>
+Maximize P = 3x<sub>1</sub> + 5x<sub>2</sub>
 
 Subject to: 
 
@@ -33,4 +33,4 @@ Subject to:
            
   2x<sub>2</sub> <= 18
   
-And: x<sub>i</sub> >= 0
+And: x<sub>1</sub>, x<sub>2</sub> >= 0
