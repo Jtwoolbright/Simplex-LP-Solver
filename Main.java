@@ -119,6 +119,7 @@ public class Main
 				i = 0;
 			}
 		}
+		System.out.println();
 		
 		Simplex solver = new Simplex(A, c, b);
 		solver.runSimplex();
