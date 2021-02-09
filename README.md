@@ -16,3 +16,13 @@ The Simplex Linear Program Solver uses the original Simplex Algorithm, and it re
 ## Requirements
 
 To run from command line, you must have a Java kit installed and your system's environment variables properly configured.
+
+![Output](https://user-images.githubusercontent.com/48270610/107436007-caf26080-6ae1-11eb-8de9-0b52bca7abfe.PNG)
+
+The above output is the result from a standard LP,
+
+Maximize Z = 3x<sub>1</sub> + 5x<sub>2</sub>
+
+Subject to: x<sub>1</sub>           <= 4
+           2x<sub>1<sub> + 3x<sub>2</sub> <= 12
+                          2x<sub>2</sub> <= 18
