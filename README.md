@@ -15,7 +15,7 @@ The Simplex Linear Program Solver uses the original Simplex Algorithm, and it re
 
 ![CommandLine](https://user-images.githubusercontent.com/48270610/107435750-6b945080-6ae1-11eb-86a3-b4379599acea.PNG)
 
-To run from command line, you must have a Java kit installed and your system's environment variables properly configured.
+To run from command line, you must have a Java kit installed and your system's environment variables properly configured. You can also run it by uploading the files to an online java environment such as https://www.onlinegdb.com/online_java_compiler.
 
 ## Output
 
