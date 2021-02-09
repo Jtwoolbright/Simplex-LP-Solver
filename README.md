@@ -25,6 +25,8 @@ The above output is the result from a standard LP,
 
 Maximize Z = 3x<sub>1</sub> + 5x<sub>2</sub>
 
-Subject to: x<sub>1</sub>           <= 4
+Subject to: x<sub>1</sub> <= 4
+
            2x<sub>1</sub> + 3x<sub>2</sub> <= 12
-                          2x<sub>2</sub> <= 18
+           
+           2x<sub>2</sub> <= 18
