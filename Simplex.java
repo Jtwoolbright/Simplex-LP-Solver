@@ -148,7 +148,7 @@ public class Simplex {
 	        else {
 	            infeasible = -1;
 	            double ratio = tableau[i][tableau[0].length - 1] / tableau[i][col];
-	            if (min > 0 && ratio > 0) {
+	            if (min > 0 && ratio >= 0) {
 	                if (ratio < min) {
 	                    min = ratio;
 	                    row = i;
